@@ -1,6 +1,7 @@
 require 'pry'
 
 class Artist
+  include Memorable
   attr_accessor :name
   attr_reader :songs
 

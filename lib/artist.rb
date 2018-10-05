@@ -21,6 +21,7 @@ class Artist
   end
 
   extend Memorable::ClassMethods
+  extend findable
 
 
   def add_song(song)

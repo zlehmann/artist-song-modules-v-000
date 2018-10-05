@@ -3,6 +3,7 @@ require 'pry'
 class Artist
   include Memorable
   include Findable
+  include Paramable
   attr_accessor :name
   attr_reader :songs
 
@@ -19,6 +20,7 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Findable
+  extend Paramable
 
 
   def add_song(song)

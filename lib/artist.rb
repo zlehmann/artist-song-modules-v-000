@@ -19,7 +19,7 @@ class Artist
     @@artists
   end
 
-  extend Memorable
+  extend Memorable::ClassMethods
   #def self.reset_all
   #  self.all.clear
   #end
